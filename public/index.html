@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mb-3{
+            color: black;
+            background-color:  rgb(218, 136, 136); 
+        }
+    </style>
+</head>
+<body align="left" style="background-color: coral;">
+    <form>
+        <fieldset>
+          <legend>Login</legend>
+          <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            <input type="text" id="Email" class="form-control" placeholder="Email">
+          </div>
+          <div class="mb-3">
+            Password: <input type="text" id="pass" class="form-control" placeholder="Password">
+          </div>
+          <div class="mb-3">
+            <input type="radio" name="op" id="hr" value="Human Resources">
+            <label for="hr">Human Resources &nbsp;</label>
+            <input type="radio" name="op" id="acc" value="Accounting">
+            <label for="acc">Accounting &nbsp;</label>
+            <input type="radio" name="op" id="pm" value="Project Management">
+            <label for="pm">Project Management &nbsp;</label>
+          </div>
+          </div>
+          <button type="submit" class="btn btn-primary">submit</button>
+        </fieldset>
+      </form>
+</body>
+</html>
