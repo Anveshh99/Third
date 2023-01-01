@@ -18,6 +18,10 @@ app.get("/login",(req,resp)=>{
     resp.sendFile(__dirname+"/public/index.html")
 })
 
+app.get("/login/account",(req,resp)=>{
+    resp.sendFile(__dirname+"/public/account.html")
+})
+
 app.listen(8000,()=>{
     console.log("server running on port no 8000");
 })
